@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DCE6581B1A23052C00BAF937 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6581A1A23052C00BAF937 /* AppDelegate.swift */; };
-		DCE6581D1A23052C00BAF937 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6581C1A23052C00BAF937 /* ViewController.swift */; };
+		DCE6581D1A23052C00BAF937 /* GuidePageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE6581C1A23052C00BAF937 /* GuidePageController.swift */; };
 		DCE658201A23052C00BAF937 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCE6581E1A23052C00BAF937 /* Main.storyboard */; };
 		DCE658221A23052C00BAF937 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCE658211A23052C00BAF937 /* Images.xcassets */; };
 		DCE658251A23052C00BAF937 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE658231A23052C00BAF937 /* LaunchScreen.xib */; };
@@ -30,7 +30,7 @@
 		DCE658151A23052C00BAF937 /* GuideView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuideView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCE658191A23052C00BAF937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DCE6581A1A23052C00BAF937 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCE6581C1A23052C00BAF937 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DCE6581C1A23052C00BAF937 /* GuidePageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidePageController.swift; sourceTree = "<group>"; };
 		DCE6581F1A23052C00BAF937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCE658211A23052C00BAF937 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DCE658241A23052C00BAF937 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -58,6 +58,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC1F8C3C1A2568D5002C1B58 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				DCE6581C1A23052C00BAF937 /* GuidePageController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		DCE6580C1A23052C00BAF937 = {
 			isa = PBXGroup;
 			children = (
@@ -79,8 +87,8 @@
 		DCE658171A23052C00BAF937 /* GuideView */ = {
 			isa = PBXGroup;
 			children = (
+				DC1F8C3C1A2568D5002C1B58 /* controller */,
 				DCE6581A1A23052C00BAF937 /* AppDelegate.swift */,
-				DCE6581C1A23052C00BAF937 /* ViewController.swift */,
 				DCE6581E1A23052C00BAF937 /* Main.storyboard */,
 				DCE658211A23052C00BAF937 /* Images.xcassets */,
 				DCE658231A23052C00BAF937 /* LaunchScreen.xib */,
@@ -164,6 +172,7 @@
 				TargetAttributes = {
 					DCE658141A23052C00BAF937 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = XH9BW47D38;
 					};
 					DCE658291A23052C00BAF937 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -216,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCE6583B1A2305DE00BAF937 /* GuideView.swift in Sources */,
-				DCE6581D1A23052C00BAF937 /* ViewController.swift in Sources */,
+				DCE6581D1A23052C00BAF937 /* GuidePageController.swift in Sources */,
 				DCE6581B1A23052C00BAF937 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +420,7 @@
 				DCE658361A23052C00BAF937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DCE658371A23052C00BAF937 /* Build configuration list for PBXNativeTarget "GuideViewTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +429,7 @@
 				DCE658391A23052C00BAF937 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

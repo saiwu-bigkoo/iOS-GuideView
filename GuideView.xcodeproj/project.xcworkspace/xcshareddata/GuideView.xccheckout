@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1DBC9F9E-5D49-48CC-B91B-62D1495DA8CD</string>
+	<key>IDESourceControlProjectName</key>
+	<string>GuideView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8AD113719663460B48E62753666CEBCA9E3196E4</key>
+		<string>https://github.com/saiwu-bigkoo/GuideView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>GuideView.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8AD113719663460B48E62753666CEBCA9E3196E4</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/saiwu-bigkoo/GuideView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8AD113719663460B48E62753666CEBCA9E3196E4</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8AD113719663460B48E62753666CEBCA9E3196E4</string>
+			<key>IDESourceControlWCCName</key>
+			<string>GuideView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
